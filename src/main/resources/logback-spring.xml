@@ -2,7 +2,7 @@
 
 	<appender name="ROLLING"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
-		local <file>C:/Users/Win10/Downloads/Logs/DayOne/application.log</file>
+		local <file>C:/Users/Win10/Downloads/Pace Wisdom/Logs/DayOne/application.log</file>
 	<!-- 	server
 		<file>/home/Aeromaritime/logs/application.log</file> -->
 		<rollingPolicy
@@ -11,7 +11,7 @@
 			<fileNamePattern>/home/Aeromaritime/logs/application-%d{yyyy-MM-dd}.%i.log
 			</fileNamePattern> -->
 			local
-			<fileNamePattern>C:/Users/Win10/Downloads/Logs/DayOne/application-%d{yyyy-MM-dd}.%i.log 
+			<fileNamePattern>C:/Users/Win10/Downloads/Pace Wisdom/Logs/DayOne/application-%d{yyyy-MM-dd}.%i.log 
 				</fileNamePattern>
 			<maxFileSize>10MB</maxFileSize>
 			<maxHistory>120</maxHistory>
